@@ -1,0 +1,456 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (min-width:769px) {
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+.menu{
+    display: flex;
+    margin-right: 60px;
+   
+  
+}
+nav div h3{
+    color: red;
+    font-size: 32px;
+
+}
+nav div h3 span{
+    color: green;
+}
+
+nav div{
+    margin-top: 17px;
+}
+nav ul{
+    padding-left: 0;
+}
+.menu li{
+    margin: 20px;
+    list-style: none;
+    /* background-color: white; */
+    border-radius: 3px;
+    
+}
+
+
+#bts{
+   margin:25px 20px;
+   padding: 0px 10px;
+   
+}
+
+a{
+    text-decoration: none;
+    
+
+}
+body{
+    background-color: #C9DFEC;
+}
+.menu li a{
+    color: rgb(195, 6, 6);
+    padding: 4px;
+    font-size: larger;
+   font-weight: 550;
+    
+}
+.menu li:hover{
+    transform: scale(1.1);
+      
+    background-color: red;
+   
+    
+}
+.menu li a:hover{
+    color: white;
+    
+}
+#center{
+    padding-left: 280px;
+  }
+
+
+  /* footer{
+    position: fixed;
+    bottom: 0;
+    color: white;
+   } */
+
+    .sec1{
+        display: flex;
+       
+        text-align: center;
+    }
+
+    .sec1 ul{
+        list-style: none;
+    }
+    .about{
+       flex: 1;
+       
+    }
+    .service{
+       flex: 1;
+      
+    }
+    .contact{
+       flex: 1;
+      
+    }
+    .service h4{
+        padding-left: 8px;
+    }
+    .sec2{
+        text-align: center;
+    }
+    .sec1 h4{
+        background-color: #555555;
+        
+
+    }
+    .service ul li:hover{
+        transform: scale(1.05);
+
+            
+        
+
+    }
+    .service ul li a:hover{
+       
+       color: green;
+
+    }
+    .service ul li{
+        margin: 2px;
+        
+        
+    }
+    .service ul{
+        padding-left: 0;
+    }
+
+        .service ul li a{
+            color: rgb(195, 6, 6);
+        }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) and (min-width:361px) {
+
+    
+    #bts{
+     margin: 10px 30px;
+    }
+ 
+     nav{
+         display: flex;
+         flex-direction: column;
+         
+         
+     }
+     nav div h3{
+         color: red;
+     
+     }
+     nav div h3 span{
+         color: green;
+     }
+     button{
+         padding: 0;
+     }
+ 
+     nav div {
+         text-align: center;
+     }
+ /* .sp{
+         text-align: end;
+         padding-right: 8px;
+         font-size: xx-small;
+     } */
+   
+     a{
+         text-decoration: none;
+         color: white;
+ 
+     }
+     body{
+         background-color: #C9DFEC;
+     }
+   
+ 
+     .menu li{
+       
+        background-color: white;
+        
+        margin: 8px;
+        list-style: none;
+        padding: 4px;
+        border-radius: 4px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        
+  
+     }
+
+     .menu{
+        display: flex;
+        justify-content: center;
+     }
+
+
+   
+ 
+     .menu li a{
+         color: rgb(195, 6, 6);
+     }
+     .menu li:hover{
+         transform: scale(1.05);
+ 
+         background-color: red;
+    
+     }
+     .menu li a:hover{
+        color: white;
+    
+     }
+ 
+    .menu{
+     margin: 0;
+     padding: 0;
+    }
+ 
+    footer{
+     position: 1;
+     bottom: 0;
+     color: black;
+    }
+ 
+     .sec1{
+         display: flex;
+         /* flex-direction: column; */
+         text-align: center;
+     }
+ 
+     .sec1 ul{
+         list-style: none;
+     }
+     .about{
+        flex: 1;
+        
+     }
+     .service{
+        flex: 1;
+        flex-shrink: 2;
+     }
+     .contact{
+        flex: 1;
+        flex-shrink: 2;
+     }
+     .service h4{
+         padding-left: 8px;
+     }
+     .sec2{
+         text-align: center;
+     }
+     .sec1 h4{
+         background-color: #555555;
+         
+ 
+     }
+     .service ul li:hover{
+         transform: scale(1.05);
+ 
+
+     }
+     .service ul li a:hover{
+        color: green;
+         
+
+     }
+     .service ul li a{
+        color: rgb(195, 6, 6);
+         
+
+     }
+     .service ul li{
+         margin: 2px;
+         
+     }
+     .service ul{
+         padding-left: 0;
+     }
+   #center{
+     padding-left: 40px;
+   }
+     
+ }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:360px) {
+
+    
+   #bts{
+    margin: 10px 30px;
+   }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    nav div h3{
+        color: red;
+    
+    }
+    nav div h3 span{
+        color: green;
+    }
+    button{
+        padding: 0;
+    }
+
+    nav div {
+        text-align: center;
+    }
+/* .sp{
+        text-align: end;
+        padding-right: 8px;
+        font-size: xx-small;
+    } */
+  
+    a{
+        text-decoration: none;
+        color: white;
+
+    }
+    body{
+        background-color: #C9DFEC;
+    }
+  
+
+    .menu li{
+       display: flex;
+       flex-direction: column;
+       background-color: white;
+       color: black;
+       margin: 2px;
+       list-style: none;
+       text-align: center;
+       border-radius: 4px;
+       padding: 0px 10px;
+ 
+    }
+
+    .menu li a{
+        color: rgb(195, 6, 6);
+    }
+    .menu li:hover{
+        transform: scale(1.05);
+
+        background-color: red;
+       
+        
+    }
+    .menu li a:hover{
+        color: white;
+    }
+
+   .menu{
+    margin: 0;
+    padding: 0;
+   }
+
+   footer{
+    position: 1;
+    bottom: 0;
+    color: black;
+   }
+
+    .sec1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sec1 ul{
+        list-style: none;
+    }
+    .service{
+        padding-right: 8px;
+    }
+    .service h4{
+        padding-left: 8px;
+    }
+    .sec2{
+        text-align: center;
+    }
+    .sec1 h4{
+        background-color: #555555;
+        
+
+    }
+    .service ul li:hover{
+        transform: scale(1.05);
+
+
+    }
+    .service ul li a:hover{
+       color: green;
+        
+
+    }
+    .service ul li a{
+       color: rgb(195, 6, 6);
+        
+
+    }
+    .service ul li{
+        margin: 2px;
+        
+    }
+    .service ul{
+        padding-left: 0;
+    }
+  /* #center{
+    text-align: center;
+  } */
+    
+}
